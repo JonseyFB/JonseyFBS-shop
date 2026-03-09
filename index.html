@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Fingerboard Shop</title>
+
+<style>
+
+body{
+font-family:Arial;
+margin:0;
+background:#f4f4f4;
+}
+
+header{
+background:black;
+color:white;
+padding:20px;
+text-align:center;
+}
+
+nav{
+background:#333;
+padding:10px;
+text-align:center;
+}
+
+nav a{
+color:white;
+margin:15px;
+text-decoration:none;
+font-weight:bold;
+}
+
+.section{
+padding:40px;
+}
+
+.products{
+display:flex;
+flex-wrap:wrap;
+gap:20px;
+}
+
+.product{
+background:white;
+padding:15px;
+border-radius:10px;
+width:220px;
+box-shadow:0 2px 6px rgba(0,0,0,0.2);
+text-align:center;
+}
+
+.product img{
+width:100%;
+border-radius:8px;
+}
+
+button{
+background:black;
+color:white;
+padding:10px;
+border:none;
+border-radius:6px;
+cursor:pointer;
+}
+
+button:hover{
+background:#444;
+}
+
+footer{
+background:black;
+color:white;
+text-align:center;
+padding:20px;
+margin-top:40px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<h1>My Fingerboard Shop</h1>
+
+<p>Custom Decks • Wheels • Trucks</p>
+
+</header>
+
+<nav>
+
+<a href="#decks">Decks</a>
+
+<a href="#wheels">Wheels</a>
+
+<a href="#trucks">Trucks</a>
+
+<a href="#social">Social</a>
+
+</nav>
+
+<div class="section" id="decks">
+
+<h2>Decks</h2>
+
+<div class="products">
+
+<div class="product">
+
+<img src="deck1.jpg">
+
+<h3>Pro Maple Deck</h3>
+
+<p>$25</p>
+
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+
+<input type="hidden" name="cmd" value="_xclick">
+
+<input type="hidden" name="business" value="YOUR_PAYPAL_EMAIL">
+
+<input type="hidden" name="item_name" value="Pro Maple Deck">
+
+<input type="hidden" name="amount" value="25.00">
+
+<input type="hidden" name="currency_code" value="USD">
+
+<input type="submit" value="Buy Now">
+
+</form>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="section" id="wheels">
+
+<h2>Wheels</h2>
+
+<div class="products">
+
+<div class="product">
+
+<img src="wheels1.jpg">
+
+<h3>Street Wheels</h3>
+
+<p>$12</p>
+
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+
+<input type="hidden" name="cmd" value="_xclick">
+
+<input type="hidden" name="business" value="YOUR_PAYPAL_EMAIL">
+
+<input type="hidden" name="item_name" value="Street Wheels">
+
+<input type="hidden" name="amount" value="12.00">
+
+<input type="hidden" name="currency_code" value="USD">
+
+<input type="submit" value="Buy Now">
+
+</form>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="section" id="trucks">
+
+<h2>Trucks</h2>
+
+<div class="products">
+
+<div class="product">
+
+<img src="trucks1.jpg">
+
+<h3>Pro Trucks</h3>
+
+<p>$15</p>
+
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+
+<input type="hidden" name="cmd" value="_xclick">
+
+<input type="hidden" name="business" value="YOUR_PAYPAL_EMAIL">
+
+<input type="hidden" name="item_name" value="Pro Trucks">
+
+<input type="hidden" name="amount" value="15.00">
+
+<input type="hidden" name="currency_code" value="USD">
+
+<input type="submit" value="Buy Now">
+
+</form>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="section" id="social">
+
+<h2>Follow Us</h2>
+
+<p>Instagram: @yourfingerboardshop</p>
+
+<p>YouTube: Your Channel</p>
+
+<p>TikTok: @yourfingerboardshop</p>
+
+</div>
+
+<footer>
+
+<p>© 2026 My Fingerboard Shop</p>
+
+</footer>
+
+</body>
+</html>
